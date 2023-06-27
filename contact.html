@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store</title>
+    <script src="https://kit.fontawesome.com/4e9e5277f9.js" crossorigin="anonymous"></script>
+     
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Tags -->
+    <meta name="description" content="Unilab">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Vazha Atskureli">
+    <!-- Facebook -->
+    <meta property="og:url"                content="https://atskureli20.github.io/safinalo/" />
+    <meta property="og:type"               content="Store" />
+    <meta property="og:title"              content="Online Game Store" />
+    <meta property="og:description"        content="თამაშების ონლაინ მაღაზია" />
+    <meta property="og:image"              content="https://wallpaperaccess.com/full/909679.jpg" />
+    <!-- <link rel="icon" href="" type="image/gif" sizes="16x16"> -->
+</head>
+<body>
+    <header id="header">
+
+        <nav class="nav-bar navbar-contact nav-profile-color">
+            <div class="nav-content container"> 
+                <div class="logo">
+                    <img class="nav-img" src="../img/logo.png" alt="logo">
+                </div>
+                <ul class="navigation">
+                    <li class="nav-list">
+                        <a class="nav-link geo" href="../index.html">მთავარი</a>
+                    </li>
+                    <li class="nav-list">
+                        <a class="nav-link geo" href="#catalog">კატალოგი</a>
+                    </li>
+                    <li class="nav-list">
+                        <a class="nav-link geo" href="#weekly-news">სიახლე</a>
+                    </li>
+                    <li class="nav-list">
+                        <a class="nav-link geo" href="../contact.html">კონტაქტი</a>
+                    </li>
+                </ul>
+                <div class="search shadow">
+                    <div class="search-wraper">
+                        <input class="inp-search" placeholder="ძიება..." type="search" name="search" id="input">
+                        <button id="searchButton"></button>
+                    </div>
+                </div>
+                <ul class="profile shadow">
+                    <li> 
+                        <a href="../profile.html">
+                            <div class="p-name-i">
+                                <i class="far fa-user-circle"></i>
+                                <h3 class="regular">Giorgi</h3>
+                            </div>
+                        </a>
+                    </li>
+                     
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="error-alert" class="error-alert"></div>
+
+
+<section id="contact" data-aos="fade-up">
+    <h2 class="section-title geo">კონტაქტი</h2>
+    <div class="contact-wraper container shadow">
+        <div class="left-con-cont">
+            <img src="img/spam.svg" alt="contact-img">
+        </div>
+        <div class="middle-cot">
+            <div class="call-box">
+                <div class="c-i-a-p"> 
+                <i class="fa-solid fa-phone"></i>
+                <p class="geo phonenumber">ტელეფონი</p></div>
+                <a href="#" class="regular">911</a>
+            </div>
+            <div class="call-box">
+                <div class="c-i-a-p"> 
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                <p class="geo phonenumber">მდებარეობა</p>
+                </div>
+                <p href="#" class="geo lokacia">ნიუ-იორკი, ბროდვეის ქ. 34</პ>
+            </div>
+        </div>
+        <div class="right-con-cont">
+            <form>
+                <div class="form-wrapper">
+                    <label for="sname"></label>
+                    <input type="text" id="sname" name="subject" placeholder="შეიყვანე სახელი">
+                </div>
+                <div class="form-wrapper">
+                    <label for="username"></label>
+                    <input type="text" id="username" name="username" placeholder="შეიყვანე გვარი">
+                </div>
+                <div class="form-wrapper">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="Email Address">
+                </div>
+                <div class="form-wrapper">
+                    <textarea name="textarea" id="textarea" placeholder="შეიყვანე კითხვა..."></textarea>
+                </div>
+                <div class="form-btn">
+                    <button type="submit" value="Submit">შეტყობინების გაგზავნა <i class="far fa-paper-plane"></i> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+<footer>
+    <div class="footer-wraper">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-discord"></i></a>
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/fetching.js"></script>
+<script src="js/search.js"></script>
+<script src="js/cart.js"></script>
+<script>AOS.init({ duration: 600,});</script>
+</body>
+</html>

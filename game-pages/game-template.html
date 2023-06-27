@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store</title>
+    <script src="https://kit.fontawesome.com/4e9e5277f9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/slick-theme.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link rel="icon" href="" type="image/gif" sizes="16x16"> -->
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+
+        <nav class="nav-bar nav-profile-color">
+            <div class="nav-content container"> 
+                <div class="logo">
+                    <img class="nav-img" src="../img/logo.png" alt="logo">
+                </div>
+                <ul class="navigation">
+                    <li class="nav-list">
+                        <a class="nav-link geo" href="../index.html">მთავარი</a>
+                    </li>
+                    <li class="nav-list">
+                        <a class="nav-link geo" href="#catalog">კატალოგი</a>
+                    </li>
+                    <li class="nav-list">
+                        <a class="nav-link geo" href="#weekly-news">სიახლე</a>
+                    </li>
+                    <li class="nav-list">
+                        <a class="nav-link geo" href="../contact.html">კონტაქტი</a>
+                    </li>
+                </ul>
+                <div class="search shadow">
+                    <div class="search-wraper">
+                        <input class="inp-search" placeholder="ძიება..." type="search" name="search" id="input">
+                        <button id="searchButton"></button>
+                    </div>
+                </div>
+                <ul class="profile shadow">
+                    <li> 
+                        <a href="../profile.html">
+                            <div class="p-name-i">
+                                <i class="far fa-user-circle"></i>
+                                <h3 class="regular">Giorgi</h3>
+                            </div>
+                        </a>
+                    </li>
+                     
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="error-alert" class="error-alert"></div>
+    
+    <section id="game-page-info" class="container">
+        <div class="game-page-wraper">
+            <h2 class="game-page-title medium"></h2>
+            <div class="game-info-wraper">
+                <div class="game-info-image shadow">
+                    <img class="game-image" src="" alt="game-page-img">
+                </div>
+                <div class="game-info-description">
+                    <p class="geo game-description">
+                        
+                    </p>
+                    <button class="btn" id="add-to-card" >
+                        <a id="add-to-card" class="geo">კალათაში დამატება <i class="fa-solid fa-cart-plus"></i></a>
+                    </button>
+                </div>
+            </div>
+            <div class="game-order-window">
+                <div class="game-order-title">
+                  <h2>შეკვეთა</h2>
+                  <i id="xmark" class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="gamelist"></div>
+                <button class="btn" id="buy-now">
+                  <a id="buy-now" class="geo">ყიდვა</a>
+                </button>
+              </div>
+            
+            <div class="min-requirement shadow">
+                <h2 class="min-b-title">მინიმალური მოთხოვნა</h2>
+                <div class="min-b-wraper">
+                    <li class="min-b-li">
+                        <h3 class="geo">ოპერაციული სისტემა:</h3> <strong class="medium">Windows 10</strong>
+                    </li>
+                    <li class="min-b-li">
+                        <h3 class="geo">პროცესორი:</h3> <strong class="medium">Intel Core i5 3470</strong>
+                    </li>                              
+                    <li class="min-b-li">
+                        <h3 class="geo">ოპერატიული მეხსიერება:</h3> <strong class="medium">4-8 GB</strong>
+                    </li>
+                    <li class="min-b-li">
+                        <h3 class="geo">ვიდეოკარტა:</h3> <strong class="medium">NVIDIA 9800 GT</strong>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <div class="buy-alert">
+        <p class="geo">თქვენ შეიძინეთ თამაში!</p>
+    </div>
+    <footer>
+        <div class="footer-wraper">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-discord"></i></a>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/fetching.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="gamepage.js"></script>
+    <script src="../js/cart.js"></script>
+
+</body>
+</html>

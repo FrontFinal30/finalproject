@@ -1,0 +1,306 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media (max-width: 1920px){
+  .container{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .rec-box{
+    max-width: 350px;
+    width: 100%;
+    height: 300px;
+  }
+}
+ 
+@media (max-width: 1366px){
+  .container{
+    max-width: 1084px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .box-game-info{
+      max-width: 230px;
+      width: 100%;
+      border-radius: 20px;
+      background: #26282B;
+  }
+  .weekly-news-wraper{
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: center;
+         -ms-flex-pack: center;
+             justify-content: center;
+  }
+  .w-box{
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 1130px){
+  .container{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .navigation{
+    margin-left: 10px;
+  }
+  .btn-reg{
+    margin-left: 10px;
+  }
+  .acc-info-wraper {
+      max-width: 500px;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+  }
+  .box-acc-info{
+    max-width: 500px;
+    width: 100%;
+  }
+  .box-acc-title{
+    padding: 10px;
+  }
+  .box-game-info{
+    max-width: 500px;
+    width: 100%;
+    border-radius: 20px;
+    background: #26282B;
+    margin-top: 20px;
+  } 
+  /* PAGE */
+  .game-info-wraper{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  .game-info-description p{
+    margin-top: 20px;
+  }
+  .btn{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .min-requirement{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1024px) {
+    .image-one, .image-two, .image-three{
+      background-attachment: fixed;
+    }
+}
+
+@media (max-width: 860px){
+  .profile{
+    width: 100%;
+    z-index: 4;
+    display: none;
+  }
+
+  .profile-active{
+    position: absolute;
+    top: 55px;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 15px;
+    border-radius: 30px;
+    background: #26272C;
+    z-index: 4;
+  }
+  .profile-active .fa-heart{
+     margin-right: 50px;
+  }
+  .burger{
+    display: block;
+  } 
+  .navigation{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: #26272C;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width:100%;
+    -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    transition: -webkit-transform 0.5s ease-in;
+    -o-transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    z-index: 4;
+  } 
+  .nav-list{
+    margin-top: 70px;
+    border-radius: 50px;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+  }
+  .nav-list:hover{
+    background: #26272C;
+    -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+  }
+  .slick-prev, 
+  .slick-next{ opacity: 0; }
+
+  .nav-active{
+    -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+            transform: translateX(0%);
+    z-index: 4;
+    padding-top: 75px;
+  }
+  .logo{
+    z-index: 5;
+  }
+  .catalog-item{
+    margin-left: 0;
+  }
+
+  .game-info-image{ height: auto;}
+}
+@media (max-width: 550px){
+  .priv-arrow {
+    left: 5%;
+  }
+  .next-arrow{
+    right: 5%;
+  }
+  #game-page-info{ height: auto; }
+}
+@media (max-width: 500px){
+  .p-wraper{
+    position: absolute;
+    left: 50%;
+    top: 92%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .p-image{
+    max-width: 130px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  .w-box{
+    height: auto;
+  }
+  .w-description{
+    padding-top: 5px;
+  }
+  .w-game-title,
+  .w-game-count{
+    font-size: 16px;
+  }
+}
+@media (max-width: 425px){
+  .rec-box{
+    width: 100%;
+    height: 300px;
+  }
+  .w-right-cont img{
+    max-width: 40px;
+    width: 100%;
+    height: 40px;
+  }
+  .game-title{
+    font-size: 25px;
+  }
+  .game-desc{ 
+    font-size: 20px; 
+  }
+  .section-title{
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  /* page */
+  .game-info-description p{
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 19px;
+  }
+  .btn{
+    max-width: 200px;
+    width: 100%;
+    height: 40px;
+  }
+  .btn a{
+    font-size: 16px;
+  }
+  .min-b-li h3{ font-size: 14px;}
+  .min-b-li strong{  font-size: 14px;}
+}
+ 
+@media (max-width: 320px){
+  .game-title{
+    font-size: 20px;
+  }
+  .game-desc{
+    font-size: 16px;
+  }
+  .desc-btn{
+    max-width: 190px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .desc-btn a{
+    color: #F4F6FD;
+    font-size: 15px;
+  }
+
+}

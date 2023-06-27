@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store</title>
+    <script src="https://kit.fontawesome.com/4e9e5277f9.js" crossorigin="anonymous"></script>
+     
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Tags -->
+    <meta name="description" content="Unilab">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Vazha Atskureli">
+    <!-- Facebook -->
+    <meta property="og:url"                content="https://atskureli20.github.io/safinalo/" />
+    <meta property="og:type"               content="Store" />
+    <meta property="og:title"              content="Online Game Store" />
+    <meta property="og:description"        content="თამაშების ონლაინ მაღაზია" />
+    <meta property="og:image"              content="https://wallpaperaccess.com/full/909679.jpg" />
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <nav class="nav-bar">
+            <div class="nav-content container"> 
+                <div class="logo">
+                    <img class="nav-img" src="img/logo.png" alt="logo">
+                </div>
+                <ul class="navigation">
+                    <li class="nav-list">
+                        <a class="nav-link geo" href="index.html">მთავარი</a>
+                    </li>
+                    <li class="nav-list">
+                        <a class="nav-link geo" href="#catalog">კატალოგი</a>
+                    </li>
+                    <li class="nav-list">
+                        <a class="nav-link geo" href="#weekly-news">სიახლე</a>
+                    </li>
+                    <li class="nav-list">
+                        <a class="nav-link geo" href="contact.html">კონტაქტი</a>
+                    </li>
+                </ul>
+                <div class="search shadow">
+                    <div class="search-wraper">
+                        <input class="inp-search" placeholder="ძიება..." type="search" name="search" id="input">
+                        <button id="searchButton"></button>
+                    </div>
+                </div>
+                <ul class="profile shadow">
+                    <li> 
+                         <a href="profile.html">
+                            <div class="p-name-i">
+                                <i class="far fa-user-circle"></i>
+                                <h3 class="regular">Giorgi</h3>
+                            </div>
+                        </a>
+                    </li>
+                     
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </nav>
+         
+        <div class="carousel">
+            <div class="image-one"> 
+                <div class="slider-content">
+                    <h1 class="game-title medium">Last of us Part II</h1>
+                    <p class="game-desc geo">თამაში მესამე პირის სტილში</p>
+                    <div class="desc-btn shadow"><a class="geo" href="#">კალათაში დამატება</a></div>
+                </div>
+            </div>
+            <div class="image-two"> 
+                <div class="slider-content">
+                    <h1 class="game-title medium">Grand Theft Auto</h1>
+                    <p class="game-desc geo">თამაში მესამე პირის სტილში</p>
+                    <div class="desc-btn shadow"><a class="geo" href="#">კალათაში დამატება</a></div>
+                </div>
+            </div>
+            <div class="image-three"> 
+                <div class="slider-content">
+                    <h1 class="game-title medium">Resident Evil 7</h1>
+                    <p class="game-desc geo">თამაში პირველი პირის სტილში</p>
+                    <div class="desc-btn shadow"><a class="geo" href="#">კალათაში დამატება</a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+ 
+
+    <section id="catalog" data-aos="fade-up">
+        <h2 class="section-title geo">კატალოგი</h2>
+        <div class="catalog-wrapper container">
+            <div class="catalog-btns">
+              <ul id="catalog-flters">
+                <li class="catalog-btn geo shadow" data-filter=".filter-discount"><a>ფასდაკლება</a></li>
+                <li class="catalog-btn geo shadow" data-filter=".filter-free"><a>უფასო</a></li>
+              </ul>
+            </div>
+        </div>
+        
+          <div class="container" id="catalog-wrapper">
+            <div class="catalog-item filter-discount shadow" data-aos="fade-up"></div> 
+            <div class="catalog-item filter-free shadow" data-aos="fade-up"></div>
+        </div>
+
+    </section>
+    <div id="error-alert" class="error-alert"></div>
+    <section id="recomended" data-aos="fade-up"> 
+        <h2 class="section-title geo">რეკომენდირებულია</h2>
+
+        <div class="recom-wraper container">
+            <div class="rec-box shadow" data-aos="fade-up"></div>
+        </div>
+    </section>
+    
+    <div id="sec-call-to-action" data-aos="fade-up">
+        <div class="call-to-action container"></div>
+    </div>
+
+    <section id="weekly-news" data-aos="fade-up">
+        <h2 class="section-title geo">კვირის საუკეთესო თამაშები</h2>
+        <div class="weekly-news-wraper container">
+            <div class="w-box shadow" data-aos="fade-up">
+                
+            </div>
+          
+        </div>
+    </section>
+    
+    
+    <footer>
+        <div class="footer-wraper">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-discord"></i></a>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/fetching.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/cart.js"></script>
+    <script>AOS.init({ duration: 600,});</script>
+</body>
+</html>
