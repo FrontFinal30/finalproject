@@ -46,6 +46,9 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+  .recom-wraper{
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 1130px){
   .container{
@@ -207,6 +210,14 @@
     right: 5%;
   }
   #game-page-info{ height: auto; }
+  .rec-box{
+   
+      max-width: 300px;
+      width: 100%;
+      height: 150px;
+       
+  
+  }
 }
 @media (max-width: 500px){
   .p-wraper{

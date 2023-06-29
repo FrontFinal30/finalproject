@@ -1,4 +1,4 @@
-// Function to save item ids in localStorage
+// Function to save item IDs in localStorage
 const saveItemIdsToLocalStorage = (category, itemIds) => {
   const storedIds = JSON.parse(localStorage.getItem(category)) || [];
   const uniqueIds = [...new Set([...storedIds, ...itemIds])]; // Merge and remove duplicates
